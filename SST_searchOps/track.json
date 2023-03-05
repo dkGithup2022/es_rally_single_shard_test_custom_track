@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "description": "커스텀 트랙 예시: search with test param ",
+    "indices": [
+      {
+        "name": "text-index"
+      }
+    ],
+    "challenges": [
+      {% include "challenges/query-single-param-no-conflict.json" %}
+    ]
+  }

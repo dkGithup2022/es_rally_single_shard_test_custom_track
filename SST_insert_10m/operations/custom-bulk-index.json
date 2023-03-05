@@ -1,0 +1,9 @@
+{
+    "name": "custom-bulk-index",
+    "operation": {
+      "operation-type": "bulk",
+      "bulk-size": 2000
+    },
+    "warmup-time-period": 10,
+    "clients": 2
+}

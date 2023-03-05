@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "description": "indexing data f",
+    "indices": [
+      {
+        "name": "text-index",
+        "body":"index.json"
+      }
+    ],
+    "corpora": [
+      {
+        "name": "rally-tutorial",
+        "documents": [
+          {% include "corpora.json" %}
+        ]
+      }
+    ],
+    "challenges": [
+      {% include "challenges/drop-and-bulk-index.json" %}
+    ]
+  }

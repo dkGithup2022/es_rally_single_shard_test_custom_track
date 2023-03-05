@@ -1,0 +1,11 @@
+{
+    "name": "query-single-word",
+    "operation":{
+        "operation-type": "search"
+    },
+    "param-source": "query_single_word_body",
+    "clients": 8,
+    "target-throughput": 1000,
+    "time-period": 60
+}
+  
